@@ -283,13 +283,18 @@ header{
 }
 
 header.contenedor {
-    padding: 9em 2em;
+    padding: 2em 2em;
 
 }
 
 #corona img{
 
 	width: 50%;
+}
+
+.encabezado h2{
+
+	line-height: 1em;
 }
 
 
