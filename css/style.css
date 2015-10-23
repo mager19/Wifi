@@ -154,7 +154,7 @@ header{
 
 /* Video */
 
-#player{
+#player iframe{
 
 	width:100%; 
 	height:500px;
@@ -220,7 +220,7 @@ header{
 	margin-top: 1vh;
 }
 
-#player{
+#player iframe{
 
 	width:100%; 
 	height:300px;
@@ -264,7 +264,7 @@ header{
 @media handheld, only screen and (max-width: 480px) {
 
 
-	#player{
+	#player iframe{
 
 	width:90%; 
 	height:300px;
