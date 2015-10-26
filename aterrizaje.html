@@ -30,23 +30,33 @@
 						<img src="img/corona.png" alt="corona">
 				</div>
         
- 
+        <div class="col-xs-12">
+          <video autoplay controls id="myvideo">
+              <source src="video/starwars.mp4" type="video/mp4">
+              <source src="video/starwars.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
 
-			<!-- VIDEO -->
-
-			 <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-    <div id="player">
-    	
-		<iframe src="https://www.youtube.com/embed/clLYRvtsoZ0?autoplay=1" frameborder="0" allowfullscreen></iframe>
-
-    </div>
 		</div>
 	</div>
 
+ <div id="content"></div>
 	
 </header>
 
+<script type='text/javascript'>
+     var video = document.getElementsByTagName('video')[0];
 
+    video.onended = function(e) {
+     
+      window.open('index.html', '_self');
+      return false;
+    };
+
+   
+
+</script>
 
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.js"></script>
