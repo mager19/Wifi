@@ -342,5 +342,9 @@ video#myvideo {
 	line-height: 1em;
 }
 
+.bg-img {
+    
+    height: 119%;
+}
 
 }
