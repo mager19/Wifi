@@ -288,6 +288,12 @@ video#myvideo {
 	margin-top: 2vh;
 }
 
+#corona2 img{
+
+	width: 55%;
+	    margin-top: 1.2em;
+
+}
 
 
 
@@ -303,7 +309,10 @@ video#myvideo {
     padding: 6em 0!important;
 }
 
+video{
 
+	padding-bottom: 10em;
+}
 }
 
 /* ---------------------------------------------------------------------- */
