@@ -1,0 +1,340 @@
+
+/* ---------------------------------------------------------------------- */
+/*	Import styles
+/* ---------------------------------------------------------------------- */
+
+@import url("../css/normalize.css");
+
+/* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
+@import url("../css/bootstrap/bootstrap.css");
+@import url("../css/bootstrap/bootstrap-theme.css");
+@import url("../css/owl.carousel.css");
+
+/* Fonts*/
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+
+/* Font Awesome */
+@import url("../css/font-awesome.min.css");
+
+
+
+/* ESTILOS GENERALES*/
+
+
+body{
+	
+	background-color: #f5f5f5;
+	line-height:30px;
+	color:#232323;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+a{	
+	color: #575757;
+}
+
+p{
+	line-height: 27px;
+	font-weight: lighter;
+	color: #9a9a9a;
+	word-wrap: break-word;
+	font-size: 1.2em;
+}
+h1 {font-size:24px;}
+h2 {font-size: 3em;
+	font-weight: 800px;
+text-align: center;}
+h3 {font-size:18px;}
+h4 {font-size:16px;}
+h5 {font-size:14px;}
+h6 {font-size:12px;}
+
+h1, h2, h3, h4, h5, h6 {
+	
+	font-weight: 300;
+	line-height: 30px;
+	color: #f5f5f5;
+	margin: 0;	
+}
+img{
+	max-width: 100%;
+}
+.clearfix{
+	width:1px;
+	height:1px;	
+	display:block;
+	clear:both;
+	content:" , ";
+}
+
+
+.contenedor{
+
+	padding: 4em 0;
+}
+
+header{
+
+	background-color: #fff;	
+}
+
+.menu{
+	background-color: #fff;
+	padding: 1em 0;
+}
+
+
+
+/*section-uno*/
+
+.section-uno{
+
+	/*background-color: #131313;*/
+	background-image: url("../img/dark.png");
+	padding: 4em 1em;
+}
+
+.item{
+
+	/*padding: 10px;*/
+
+}
+
+.owl-carousel {
+
+	margin-top: 3em;
+}
+
+.section-uno h2{
+
+	border-bottom: 2px dotted #fff;
+    margin-left: 25%;
+    padding-bottom: 10px;
+    width: 50%;
+
+}
+
+.section-uno h2 i{
+
+	padding-right: 20px;
+}
+
+
+/* SECTION2 */
+
+.section-dos{
+
+	/*background-color: #1d9f75;*/
+	background-image: url("../img/background-verduras.jpg");
+	
+}
+
+.dinning{
+
+	background-color: rgba(0,0,0,0.7);
+	padding: 4em 1em;
+}
+
+.section-dos h2{
+
+	border-bottom: 2px dotted #fff;
+	color:#fff;
+    margin-left: 25%;
+    padding-bottom: 10px;
+    margin-bottom: 2em;
+    width: 50%;
+
+}
+
+.section-dos h2 i{
+
+	padding-right: 20px;
+}
+
+
+/* SECTION3*/
+
+.section-tres{
+
+	background-color: #fff;
+	/*background-image: url("../img/background-ciudad.jpg");*/
+	padding: 4em 1em;
+}
+
+
+
+.section-tres h2{
+
+	border-bottom: 2px dotted #232323;
+	color:#232323;
+    margin-left: 25%;
+    padding-bottom: 10px;
+    margin-bottom: 0em;
+    width: 50%;
+
+}
+
+.section-tres h2 i{
+
+	padding-right: 20px;
+}
+
+#logolang{
+	text-align: center;
+
+}
+
+.item-real{
+
+	background-color: #f5f5f5;
+	margin-bottom: 4em;
+
+}
+
+.item-real h3{
+
+	background-color: #c5960c;
+	font-weight: 500;
+	text-align: center;
+}
+
+.item-real h4{
+
+	color:#232323;
+	font-weight: 400;
+	padding: 1em 0;
+	text-align: center;
+}
+
+.item-real p{
+
+	color:#c5960c;
+	font-weight:300;
+	padding: 0em 0 10px 0em;
+	text-align: center;
+}
+
+
+
+/* SECTION4*/
+
+.section-cuatro{
+
+	/*background-color: #131313;*/
+	background-image: url("../img/dark.png");
+	padding: 4em 1em;
+}
+
+
+
+.section-cuatro h2{
+
+	border-bottom: 2px dotted #fff;
+	color:#fff;
+    margin-left: 25%;
+    padding-bottom: 10px;
+    margin-bottom: 2em;
+    width: 50%;
+
+}
+
+.section-cuatro h2 i{
+
+	padding-right: 20px;
+}
+
+
+.night-down{
+
+	margin-top: 3em;
+}
+
+
+
+/* SECTION4*/
+
+.section-cinco{
+
+	background-color: #166678;
+	/*background-image: url("../img/background-ciudad.jpg");*/
+	padding: 4em 1em;
+}
+
+
+
+.section-cinco h2{
+
+	border-bottom: 2px dotted #fff;
+	color:#fff;
+    margin-left: 25%;
+    padding-bottom: 10px;
+    margin-bottom: 2em;
+    width: 50%;
+
+}
+
+.section-cinco h2 i{
+
+	padding-right: 20px;
+}
+
+
+/* footer */
+
+
+footer{
+
+	background-color: #131313;
+	color: #fff;
+	text-align: center;
+	padding: 0.5em 0;
+
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/*  Version 1024px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1024px) {
+
+h2{
+
+	font-size: 2.5em;
+
+}
+
+
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*  Version 768px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 768px) {
+
+h2{
+
+	font-size: 1.8em;
+
+}
+
+
+.section-uno {
+   
+    padding: 4em 0em;
+}
+
+.menu{
+
+	text-align: center;
+}
+
+}
