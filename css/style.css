@@ -311,7 +311,7 @@ video#myvideo {
 
 video{
 
-	padding-bottom: 10em;
+	padding-bottom: 12em;
 }
 }
 
@@ -328,7 +328,7 @@ video{
 .logo{
 
 	text-align: center;
-	margin-top: 0;
+	margin-top: 2em!important;
 }
 
 #corona img{
@@ -340,6 +340,11 @@ video{
 
 	line-height: 1em;
 }
+
+video {
+    padding-bottom: 10em;
+    margin-top: 2em!important;
+  }
 
 
 
