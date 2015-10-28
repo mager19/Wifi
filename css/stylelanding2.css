@@ -1,0 +1,346 @@
+
+/* ---------------------------------------------------------------------- */
+/*	Import styles
+/* ---------------------------------------------------------------------- */
+
+@import url("../css/normalize.css");
+
+/* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
+@import url("../css/bootstrap/bootstrap.css");
+@import url("../css/bootstrap/bootstrap-theme.css");
+@import url("../css/owl.carousel.css");
+
+/* Fonts*/
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+
+/* Font Awesome */
+@import url("../css/font-awesome.min.css");
+
+
+
+/* ESTILOS GENERALES*/
+
+
+body{
+	
+	background-color: #f5f5f5;
+	line-height:30px;
+	color:#232323;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+a{	
+	color: #575757;
+}
+
+p{
+	line-height: 27px;
+	font-weight: lighter;
+	color: #9a9a9a;
+	word-wrap: break-word;
+	font-size: 1.2em;
+}
+h1 {font-size:24px;}
+h2 {font-size: 3em;
+	font-weight: 800px;
+text-align: center;}
+h3 {font-size:18px;}
+h4 {font-size:16px;}
+h5 {font-size:14px;}
+h6 {font-size:12px;}
+
+h1, h2, h3, h4, h5, h6 {
+	
+	font-weight: 300;
+	line-height: 30px;
+	color: #f5f5f5;
+	margin: 0;	
+}
+img{
+	max-width: 100%;
+}
+.clearfix{
+	width:1px;
+	height:1px;	
+	display:block;
+	clear:both;
+	content:" , ";
+}
+
+
+.contenedor{
+
+	padding: 4em 0;
+}
+
+header{
+
+	background-image: url("../img/header.jpg");
+	background-position: bottom;
+	padding: 6em 0;	
+	height: 85vh;
+	text-align: center;
+}
+
+
+header h2{
+	
+	color:#DCEDC2;
+	font-size: 3.5em;
+	font-weight: 500;
+	padding-top: 1em;
+	line-height: 1em;
+	text-align: center;
+	
+}
+
+header p{
+	
+	
+	color:#fff;
+	font-weight: 500;
+	margin-top: 2em;
+	text-align: center;
+	margin-left: 10%;
+	width: 80%;
+}
+
+header h3{
+
+	padding: 0.5em 0;
+}
+
+header h3 i{
+
+	color:#EDE7BE;
+	font-size: 3em!important;
+
+}
+
+/* barrita */
+
+#barrita{
+
+	background-color:#0B88A8;
+}
+
+
+.owl-carousel {
+
+	padding-top: 1em;
+}
+
+
+.icons i{
+
+	color:#fff;
+	font-size: 5em;
+
+}
+
+
+.infoicons h3{
+
+	font-size: 2.5em;
+	font-weight: 400;
+	margin-left: 20px;
+
+}
+
+.infoicons h4{
+
+	font-size: 1.4em;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+
+
+/* Destacado */
+
+#destacados{
+
+	background-color: #f9f9f9;
+}
+
+
+#destacados h2{
+
+	color:#232323;
+	padding-bottom: 2em;
+}
+
+
+#destacados h2 i{
+
+	color:#4d4d4d;
+	font-size: 2em!important;
+	margin-bottom: 20px;
+
+}
+
+
+.item-destacado{
+
+	margin-top: 2em;
+	position: relative;
+}
+
+
+.item-info{
+
+	background-color: #AD2959;
+    position: absolute;
+    padding: 1em;
+    width: 97%;
+    left: 1.5%;
+    top: 75%;
+    text-align: center;
+}
+
+#item-infob{
+
+	background-color: #3CB29A;
+   
+}
+
+#item-infoc{
+
+	background-color: #118DF0;
+   
+}
+
+#item-infod{
+
+	background-color: #1B0044;
+   
+}
+
+
+
+.item-info h4{
+
+	font-size: 2.5em;
+}
+
+.item-info h5{
+
+	font-size: 1.2em;
+}
+
+.item-info ul{
+
+
+	text-align: center;
+}
+
+.item-info ul li{
+
+	
+	display: inline-block;
+	list-style: none;
+	margin-right: 30px;
+}
+
+.item-info ul li i{
+
+	color:#fff;
+	font-size: 2em;
+	margin-top: 10px;
+}
+
+
+.items-peque{
+
+	margin-top: 3em;
+
+}
+
+.item-peque-adentro{
+	
+	padding: 10px;
+	margin-top: 1em;
+
+}
+
+
+/* Footer */
+
+footer{
+
+	background-color: #232323;
+	padding: 2em 0;
+}
+
+footer ul li{
+	
+
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+}
+
+footer ul li a{
+
+	color:#DCEDC2;
+}
+
+
+footer h4{
+
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+
+#socials {
+
+	font-size: 1.5em;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*  Version 1024px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1024px) {
+
+h2{
+
+	font-size: 2.5em;
+
+}
+
+
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*  Version 768px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 768px) {
+
+h2{
+
+	font-size: 1.8em;
+
+}
+
+
+.section-uno {
+   
+    padding: 4em 0em;
+}
+
+.menu{
+
+	text-align: center;
+}
+
+}
